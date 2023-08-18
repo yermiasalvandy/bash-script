@@ -2,11 +2,11 @@
 
 # MySQL database credentials
 DB_USER="root"
-DB_PASS="Tjap5454"
-DB_NAME="db_hris"
+DB_PASS="YOUR PASSWORD"
+DB_NAME="YOUR DB NAME"
 
 # Backup directory and filename
-BACKUP_DIR="BACKUP_DB/"
+BACKUP_DIR="YOUR_FOLDER/"
 BACKUP_FILENAME="backup_$(date +%Y-%m-%d_%H-%M-%S).sql"
 
 # Create backup directory if it doesn't exist
