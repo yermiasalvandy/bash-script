@@ -20,3 +20,4 @@ gzip $BACKUP_DIR/$BACKUP_FILENAME
 
 # Delete backups older than 7 days
 find $BACKUP_DIR/* -mtime +7 -exec rm {} \;
+# Use in Pruduction
