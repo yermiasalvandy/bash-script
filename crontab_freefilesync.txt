@@ -1,9 +1,9 @@
 # Everyday @17:00
-0 17 * * * DISPLAY=:0 /opt/FreeFileSync/FreeFileSync /home/debian/Backup-NAS.ffs_batch
+0 17 * * * DISPLAY=:0 /opt/FreeFileSync/FreeFileSync /your/path/Script.ffs_batch
 #Everyday @08:00
-0 8 * * * DISPLAY=:0 /opt/FreeFileSync/FreeFileSync /home/debian/Backup_HANA.ffs_batch
+0 8 * * * DISPLAY=:0 /opt/FreeFileSync/FreeFileSync /your/path/Script.ffs_batch
 #Everyday @21:00
-0 21 * * * DISPLAY=:0 /opt/FreeFileSync/FreeFileSync /home/debian/Backup-NAS-EXIM.ffs_batch
+0 21 * * * DISPLAY=:0 /opt/FreeFileSync/FreeFileSync /your/path/Script.ffs_batch
 
 #use this if you want create your own schedule
 https://crontab.guru/
